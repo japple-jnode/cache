@@ -1,0 +1,24 @@
+{
+  "name": "@jnode/cache",
+  "version": "1.0.1",
+  "description": "Simple cache system for Node.js.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Hello, cache.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japple-jnode/cache.git"
+  },
+  "keywords": [
+    "JustNode",
+    "cache",
+    "JustApple"
+  ],
+  "author": "JustApple <apple@justapple.tw>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/japple-jnode/cache/issues"
+  },
+  "homepage": "https://github.com/japple-jnode/cache#readme"
+}
