@@ -43,6 +43,9 @@ class Cacher {
 	
 	//set timer
 	setTimeout(id) {
+		//no timeout
+		if (this.timeout === 0) return;
+		
 		//clear old timer
 		clearTimeout(id);
 		

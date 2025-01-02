@@ -27,7 +27,7 @@ The main class for managing the cache.
 new Cacher(data = new Map(), timeout = 600000)
 ```
 - `data`: An optional `Map` object to initialize the cache with existing data. Default is a new `Map()`.
-- `timeout`: An optional number representing the default timeout (in milliseconds) for cached items. Default is `600000` (10 minutes).
+- `timeout`: An optional number representing the default timeout (in milliseconds) for cached items. Default is `600000` (10 minutes). Set to `0` to make data cache forever.
 
 ### Methods
 
